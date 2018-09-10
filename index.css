@@ -1,0 +1,74 @@
+  nav{
+    background:black;
+    opacity: 0.6;
+  }
+
+  .pic {
+    border-radius: 50%;
+  }
+
+  #brand-name{
+    font-size: 23.9px;
+  }
+
+  img{
+    border: 1px solid #a02038;
+  }
+  #img1{
+    border-right: 0px
+  }
+  #img3{
+    border-left: 0px
+  }
+  
+  #back{
+    background-image: url("img/back.jpeg");
+    height: 100vh;
+    filter: blur(4px);
+    z-index: -1;
+  }
+
+  #welcome-section { 
+    height: 100vh;
+  }
+  
+  #projects {
+    background: white;
+    text-align: center;
+    
+  }
+  
+  #contact{
+    background: #3b3b49;
+    text-align: center;
+  }
+
+  
+  #query, #pq{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  #img-q, .project-tile{
+    text-align: end;
+  }
+  #content-q, .project-tile1{
+    text-align: left;
+  }
+
+  @media not all and (min-width: 750px){
+    #query, #pq{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    #img-q, #content-q, .project-tile1, .project-tile{
+      text-align: center;
+    }
+    #img1{
+      border-right: 1px solid #a02038;
+    }
+    #img3{
+      border-left: 1px solid #a02038;
+    }
+  }
